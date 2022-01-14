@@ -55,7 +55,7 @@ public class VelocityHandshakeHandler {
 		try {
 			plugin.getPacketHandler().handleHandshake(packet, player);
 		} catch (HandshakeException exception) {
-			plugin.getDebugger().exception(exception);
+			//plugin.getDebugger().exception(exception);
 		}
 	}
 
