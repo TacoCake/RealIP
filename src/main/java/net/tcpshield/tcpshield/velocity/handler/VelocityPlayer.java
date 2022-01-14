@@ -120,7 +120,7 @@ public class VelocityPlayer implements PlayerProvider {
 
 			CLOSE_CHANNEL_METHOD.invoke(minecraftConnection);
 		} catch (Exception e) {
-			throw new PlayerManipulationException(e);
+			//throw new PlayerManipulationException(e);
 		}
 	}
 
